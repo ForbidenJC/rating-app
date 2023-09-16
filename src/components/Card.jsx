@@ -1,7 +1,7 @@
 import starIcon from "../images/icon-star.svg";
 import { useState } from "react";
 
-export const Card = ({ Setpuntuacion, SetmostrarOcultar }) => {
+ const Card = ({ Setpuntuacion, SetmostrarOcultar }) => {
   return (
     <div className="bg-Dark-Blue h-[360px] w-[325px] rounded-2xl grid items-center justify-center p-8 md:w-[410px] md:h-[415px]">
       <div className="circulo-boton md:mb-3">
@@ -37,3 +37,5 @@ export const Card = ({ Setpuntuacion, SetmostrarOcultar }) => {
     </div>
   );
 };
+
+export default Card

@@ -1,7 +1,7 @@
 import React from 'react'
 import imagen from '../images/illustration-thank-you.svg'
 
-export const Thanks = ({puntuacion, SetmostrarOcultar}) => {
+const Thanks = ({puntuacion, SetmostrarOcultar}) => {
   return (
     <div className='bg-Dark-Blue h-[360px] w-[325px] rounded-2xl grid justify-items-center px-5 md:w-[410px] md:h-[415px]'>
         <div>
@@ -22,3 +22,5 @@ export const Thanks = ({puntuacion, SetmostrarOcultar}) => {
     </div>
   )
 }
+
+export default Thanks

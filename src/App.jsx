@@ -1,9 +1,7 @@
 import { useState } from 'react'
-
-
 import './App.css'
-import { Card } from './components/card'
-import { Thanks } from './components/Thanks'
+import Card from './components/Card'
+import Thanks from './components/Thanks'
 
 function App() {
   const [puntuacion, Setpuntuacion] =useState(0)
