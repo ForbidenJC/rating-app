@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.boton-activo:active{
+   background-color: hsl(217, 12%, 63%) ;
+}
+
+.circulo-boton{
+    @apply w-10 md:w-12 bg-button-container aspect-square rounded-full flex items-center justify-center hover:bg-Orange hover:text-White hover:scale-110 ease-in duration-100
+    active:bg-Light-Grey
+   
+}
